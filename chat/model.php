@@ -27,4 +27,8 @@ function get_messages() {
         $arr[] = $row;
     }
     return $arr;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master
