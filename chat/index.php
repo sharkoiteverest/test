@@ -6,7 +6,7 @@ startdb();
 
 if (!empty($_POST)) {
     send_message($_POST['name'], $_POST['text']);
-    header('Location: /index.php');
+    header('Location: /chat/index.php');
     exit;
 }
 
